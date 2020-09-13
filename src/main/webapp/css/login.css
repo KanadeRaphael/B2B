@@ -1,0 +1,91 @@
+.layout{
+    position: absolute;
+    padding: 30px 30px 0;
+    top: 130px;
+    right: 0px;
+    width: 420px;
+    min-height: 480px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+H4{
+    text-align: center;
+    line-height: 1;
+    vertical-align: baseline;
+    font-weight: normal;
+    color: #4d4d4d;
+    font-size: 23px;
+}
+.textlabel{
+    position: relative;
+    line-height: 50px;
+    height: 50px;
+    display: block;
+    border: 1px solid #E1E1E1;
+    outline: 0 none;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 0;
+    box-sizing: border-box;
+}
+input {
+    outline: none;
+    border: none;
+}
+.textlabel input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 49px;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    padding-left: 16px;
+    box-sizing: border-box;
+    float: left;
+    color: #666666;
+}
+.checkboxlabel{
+    font-size: 14px;
+    color: #666666;
+    cursor: pointer;
+}
+input[type=checkbox]{
+    width: 14px;
+    height: 14px;
+    margin: 0 10px 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ifforgetpsw{
+    display: table-cell;
+    text-decoration: none;
+    line-height: 1;
+    float:right;
+    font-size: 14px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.loginbtn,.regisbtn{
+    margin-top: 20px;
+    -webkit-appearance: none;
+    width: 100%;
+    color: white;
+    line-height: 50px;
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    background-color: #2899f7;
+    cursor: pointer;
+}
+.regisbtn{
+    color: #666666;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.mailbtn{
+    width:auto
+}

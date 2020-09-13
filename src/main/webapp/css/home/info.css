@@ -1,0 +1,19 @@
+/* CSS Document */
+.showPic{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+.showPic img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#user-address{
+	float: right;
+}

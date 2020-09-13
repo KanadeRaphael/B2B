@@ -1,0 +1,98 @@
+.home-list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	white-space:nowrap;
+}
+
+.home-list li{
+	display: inline-block;
+}
+
+.show{
+	padding: 0;
+	margin: 0;
+}
+
+#userShow{
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #283643;
+}
+
+#userShow a{
+	font: 700 18px/20px Arial;
+	color: #ffffff;
+}
+
+.showPic{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.showPic img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.order-name{
+	text-align: center;
+	position: relative;
+	display:block;
+}
+
+.order-img{
+	background: url(../../image/home/index-order.png) no-repeat;
+	position: relative;
+	display:block;
+}
+
+.to-pay .order-img{
+	margin: 3px auto;
+	width: 44px;
+	height: 35px;
+	background-position: 0 -200px;
+}
+
+.to-take .order-img{
+	margin: 1px auto 2px;
+	width: 40px;
+	height: 38px;
+	background-position: -80px -200px;
+}
+
+.to-assess .order-img{
+	margin: 1px auto 2px;
+	width: 41px;
+	height: 38px;
+	background-position: -160px -200px;
+}
+
+.to-service .order-img{
+	margin: 0 auto 1px;
+	width: 39px;
+	height: 41px;
+	background-position: -240px -200px;
+}
+
+.to-order .order-img{
+	margin: 0 auto;
+	width: 41px;
+	height: 41px;
+	background-position: -320px -200px;
+}
+
+.order-pos{
+	margin: 0 50px;
+}
+
+.order-content{
+	padding: 60px 0 90px;
+	text-align: center;
+	color: #999999;
+}
